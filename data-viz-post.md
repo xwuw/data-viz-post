@@ -121,7 +121,7 @@ description: >-
 - 概念抽象风格
 - 噪声渐变纹理（grainy gradient）
 - 高端editorial aesthetic
-- 生成可复用背景时，优先读取 `seeds/background-presets.md` 中的 preset；若用户要求沿用当前背景，使用 `active-warm-white-red-paper` 的 seed 和参数。
+- 生成可复用背景时，优先读取 `seeds/background-presets.md` 中的 preset，并使用 `scripts/background_generator.py` 生成；若用户要求沿用当前背景，使用 `active-warm-white-red-paper`。
 
 ### 阶段五 A：AI gen 模式
 

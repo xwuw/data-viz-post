@@ -44,5 +44,6 @@ Local download: use the latest GitHub Release/tag package, unzip it locally, and
 
 - `data-viz-post.md`: skill instructions and workflow.
 - `assets/style-reference-1.md`: LatePost-style visual reference.
+- `scripts/background_generator.py`: deterministic Python generator for reusable grain/noise backgrounds.
 - `seeds/background-presets.md`: reusable noise/grain gradient seed presets.
 - `references/checklist.md`: publication and prompt QA checklist.

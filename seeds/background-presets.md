@@ -1,11 +1,30 @@
 # Background Seed Presets
 
-Use these presets when generating reusable noise/grain/liquid gradient backgrounds for HTML cards or AI-image prompts. Preserve the seed and visual intent unless the user explicitly asks to explore new backgrounds.
+Use these presets with `scripts/background_generator.py` when generating reusable noise/grain/liquid gradient backgrounds for HTML cards or AI-image prompts. Preserve the seed and visual intent unless the user explicitly asks to explore new backgrounds.
+
+## Usage
+
+```bash
+python scripts/background_generator.py --preset active-warm-white-red-paper --out-dir /path/to/output
+python scripts/background_generator.py --list
+```
+
+## Preset Index
+
+| Preset | Seed | Output filename | Status |
+| ------ | ---- | --------------- | ------ |
+| `active-warm-white-red-paper` | `205` | `background-white-red.png` | current default |
+| `dark-violet-random-soft` | `201` | `dark-violet-random-soft.png` | retained exploration |
+| `indigo-magenta-random-soft` | `202` | `indigo-magenta-random-soft.png` | retained exploration |
+| `muted-data-card-soft` | `204` | `muted-data-card-soft.png` | retained exploration |
+| `red-top-paper-wash` | `206` | `red-top-paper-wash.png` | archived exploration |
+
+Legacy exploratory seeds from the prototype generator: `11`, `21`, `31`, `41`, `51`, `101`, `102`, `103`, `104`, `203`. Keep them only for historical reference unless a user asks to revive a specific look.
 
 ## active-warm-white-red-paper
 
 - **Use for**: LatePost-style HTML card backgrounds with red/black/white charts.
-- **Generator function**: `white_red_editorial`
+- **Generator function**: `active_warm_white_red_paper`
 - **Seed**: `205`
 - **Canvas**: `900x1200`
 - **Output filename used in current card workflow**: `background-white-red.png`
