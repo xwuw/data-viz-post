@@ -1,3 +1,4 @@
-display_name: DeepTech御用公众号skill
-short_description: 将新闻素材整理成晚点 LatePost 风格的数据图表生图 prompt
-default_prompt: 帮我把这份新闻素材整理成数据可视化图表 prompt
+interface:
+  display_name: "DeepTech 数据可视化"
+  short_description: "将新闻素材转成 LatePost 风格图表"
+  default_prompt: "Use $data-viz-post to turn this news material into a LatePost-style data visualization, then let me choose AI image or HTML card mode."
