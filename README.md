@@ -46,6 +46,8 @@ Local download: use the latest GitHub Release/tag package, unzip it locally, and
 - `data-viz-post.md`: skill instructions and workflow.
 - `assets/style-reference-1.md`: LatePost-style visual reference.
 - `scripts/background_generator.py`: deterministic Python generator for reusable grain/noise backgrounds.
+- `scripts/html_card_style.py`: reusable HTML card layout, font, and palette tokens.
 - `seeds/background-presets.md`: reusable noise/grain gradient seed presets.
 - `references/html-card-examples/`: successful 900×1200 HTML card references for visual matching.
+- `references/html-card-style-system.md`: adaptive chart plate layouts and professional palette rules.
 - `references/checklist.md`: publication and prompt QA checklist.
