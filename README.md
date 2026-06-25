@@ -1,6 +1,6 @@
 # data-viz-post
 
-LatePost-style data visualization skill for turning news material, PDFs, screenshots, links, and datasets into chart prompts, generated images, or HTML cards.
+a data visualization skill for turning news material, PDFs, screenshots, links, and datasets into chart prompts, generated images, or HTML cards.
 
 ## Workflow
 
