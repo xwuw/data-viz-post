@@ -26,6 +26,16 @@ Rules:
 - Reduce card feeling: avoid multiple framed boxes; use one main chart field, fine divider lines, direct labels, and page-level alignment.
 - For magazine-like layouts, the chart can visually extend close to the plate boundary or align with the title block, as long as labels remain readable.
 
+## Logo Placement
+
+Use the bundled logo asset `assets/dt-insights-logo.png` in the lower-right logo area.
+
+- Recommended CSS: `position: absolute; right: 72px; bottom: 58px; width: 124px; height: auto;`
+- Acceptable width range: 112-140px, depending on source text length.
+- Preserve transparency and original colors.
+- Do not redraw, recolor, crop, stretch, outline, shadow, or place the logo inside a rounded container.
+- Do not leave the old empty logo placeholder visible behind the logo.
+
 ## Professional Palette Tokens
 
 Use one palette per card set. Red is for the main conclusion only.

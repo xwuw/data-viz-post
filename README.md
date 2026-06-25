@@ -45,6 +45,7 @@ Local download: use the latest GitHub Release/tag package, unzip it locally, and
 
 - `data-viz-post.md`: skill instructions and workflow.
 - `assets/style-reference-1.md`: LatePost-style visual reference.
+- `assets/dt-insights-logo.png`: DT Insights logo for the lower-right HTML card mark.
 - `scripts/background_generator.py`: deterministic Python generator for reusable grain/noise backgrounds.
 - `scripts/html_card_style.py`: reusable HTML card layout, font, and palette tokens.
 - `seeds/background-presets.md`: reusable noise/grain gradient seed presets.

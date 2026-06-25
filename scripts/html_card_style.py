@@ -25,6 +25,13 @@ COLORS = {
     "latepost_red": "#C92816",
 }
 
+LOGO = {
+    "asset": "assets/dt-insights-logo.png",
+    "right": 72,
+    "bottom": 58,
+    "width": 124,
+}
+
 PALETTES = {
     "latepost-core": ["#C92816", "#171717", "#B8B2A8", "#E6DED2", "#8A8177"],
     "flow-muted": ["#C92816", "#2F5F5B", "#8C8479", "#C9C5BA", "#E7DFD4"],
@@ -81,6 +88,7 @@ def payload() -> dict[str, object]:
         "card_size": CARD_SIZE,
         "font_stacks": FONT_STACKS,
         "colors": COLORS,
+        "logo": LOGO,
         "palettes": PALETTES,
         "plate_layouts": PLATE_LAYOUTS,
         "chart_layout_map": CHART_LAYOUT_MAP,
