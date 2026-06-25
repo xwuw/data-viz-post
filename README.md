@@ -11,6 +11,16 @@ LatePost-style data visualization skill for turning news material, PDFs, screens
 - **AI gen mode**: split the story into chart sections, produce image-2/gpt-image-2 prompts, then generate images after user confirmation.
 - **HTML card mode**: use seaborn/matplotlib to generate precise charts, then compose a fixed 900×1200px vertical HTML card.
 
+## Usage
+
+Recommended: send this HTTPS link directly to your agent and ask it to download and use the skill:
+
+```text
+https://github.com/xwuw/data-viz-post
+```
+
+Local download: use the latest GitHub Release/tag package, unzip it locally, and point your agent to the extracted folder. For v0.1.0, download `https://github.com/xwuw/data-viz-post/archive/refs/tags/v0.1.0.zip`. If your agent requires the standard Codex skill layout, use `data-viz-post.md` as the skill instruction file or rename it to `SKILL.md`.
+
 ## Supported Charts
 
 | Data type | Chart types |
