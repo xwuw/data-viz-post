@@ -32,6 +32,13 @@ Local download: use the latest GitHub Release/tag package, unzip it locally, and
 | 分布 | 箱线图、violin plot、ridge-like small multiples |
 | 相关性 | 散点图、气泡图、带注释回归线 |
 | 多指标矩阵 | heatmap、小倍数图、scorecard grid |
+| 多节点流向 | Sankey diagram、alluvial flow、parallel sets |
+| 类别互联关系 | chord diagram、circular network、arc diagram |
+| 径向类别比较 | radial bar chart、Nightingale rose chart、polar stacked bar |
+| 多序列叠加趋势 | layered area chart、streamgraph、horizon-style area |
+| 演化时间线 | radial timeline、spiral timeline、ray/burst timeline |
+| 生态/利益相关者关系 | ecosystem map、stakeholder map、layered influence map |
+| 离散单位流转 | pictogram matrix + Sankey、icon grid + flow |
 
 ## Main Files
 
