@@ -1,0 +1,3 @@
+display_name: DeepTech御用公众号skill
+short_description: 将新闻素材整理成晚点 LatePost 风格的数据图表生图 prompt
+default_prompt: 帮我把这份新闻素材整理成数据可视化图表 prompt
