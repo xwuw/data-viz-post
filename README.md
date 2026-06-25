@@ -10,6 +10,7 @@ LatePost-style data visualization skill for turning news material, PDFs, screens
 
 - **AI gen mode**: split the story into chart sections, produce image-2/gpt-image-2 prompts, then generate images after user confirmation.
 - **HTML card mode**: use seaborn/matplotlib to generate precise charts, then compose a fixed 900×1200px vertical HTML card.
+- **Style lock**: HTML cards use the bundled grain background presets, explicit Chinese font stacks, and square-corner white chart plates.
 
 ## Usage
 
@@ -46,4 +47,5 @@ Local download: use the latest GitHub Release/tag package, unzip it locally, and
 - `assets/style-reference-1.md`: LatePost-style visual reference.
 - `scripts/background_generator.py`: deterministic Python generator for reusable grain/noise backgrounds.
 - `seeds/background-presets.md`: reusable noise/grain gradient seed presets.
+- `references/html-card-examples/`: successful 900×1200 HTML card references for visual matching.
 - `references/checklist.md`: publication and prompt QA checklist.

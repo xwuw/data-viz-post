@@ -10,6 +10,10 @@
 - 浅灰：#B6B3AA
 可以少量加入 muted teal 作为次级区分色，但整体不要变成多彩信息图。
 
+字体使用高级中文报刊感层级：主标题优先使用 `"Noto Serif CJK SC", "Source Han Serif SC", "Songti SC", "STSong", "SimSun", serif`，正文、来源、图表标签使用 `"Noto Sans CJK SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif`，数字可用 `"Avenir Next", "Inter", "Helvetica Neue", Arial, sans-serif`。所有文字字距为 0，不使用默认 Times、花体、描边、投影或装饰字。
+
+HTML 卡片里的图表应放在不透明白色或暖白色直角底板上，推荐 #FFFCF6 / #FFFFFF，border-radius 必须为 0。不要使用圆角图表容器、玻璃拟态、悬浮卡片、明显阴影或整张卡片网格背景。图表内部只允许极浅的必要参考线，不能出现 seaborn 默认 whitegrid 的重网格观感；图表 PNG/SVG 背景必须不透明，不能透明叠在纹理底上。
+
 线条设计应像精致印刷图表：贝塞尔曲线、细线、端点圆点、简洁节点、严谨比例。红色只用于最重要的一条线、一个数据或一个结论；黑色用于主结构；灰色用于背景流动和次要信息。图形应该像“严肃研究报告的封面/内页图表”，而不是营销海报。
 
 强约束：无 logo、无水印、无旗帜、无地图、无人物肖像、无政治/宗教/军事符号。所有文字必须清晰可读，数字必须精确，图表比例必须与数据一致。画面应有高级纸媒感、冷静分析感、少即是多的张力。
