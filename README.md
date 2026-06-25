@@ -11,6 +11,18 @@ LatePost-style data visualization skill for turning news material, PDFs, screens
 - **AI gen mode**: split the story into chart sections, produce image-2/gpt-image-2 prompts, then generate images after user confirmation.
 - **HTML card mode**: use seaborn/matplotlib to generate precise charts, then compose a fixed 900×1200px vertical HTML card.
 
+## Supported Charts
+
+| Data type | Chart types |
+| --------- | ----------- |
+| 时间序列 | 折线图、面积图、末端标注线图 |
+| 排名/类别比较 | 水平条形图、lollipop chart、dot plot |
+| 两组对比 | dumbbell chart、slopegraph、分组柱状图 |
+| 占比结构 | 100% stacked bar、treemap-like block、横向比例条 |
+| 分布 | 箱线图、violin plot、ridge-like small multiples |
+| 相关性 | 散点图、气泡图、带注释回归线 |
+| 多指标矩阵 | heatmap、小倍数图、scorecard grid |
+
 ## Main Files
 
 - `data-viz-post.md`: skill instructions and workflow.
