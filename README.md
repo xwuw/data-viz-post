@@ -9,7 +9,7 @@ LatePost-style data visualization skill for turning news material, PDFs, screens
 ## Output Modes
 
 - **AI gen mode**: split the story into chart sections, produce image-2/gpt-image-2 prompts, then generate images after user confirmation.
-- **HTML card mode**: use seaborn/matplotlib to generate precise charts, then compose a fixed-resolution HTML card.
+- **HTML card mode**: use seaborn/matplotlib to generate precise charts, then compose a fixed 900×1200px vertical HTML card.
 
 ## Main Files
 
